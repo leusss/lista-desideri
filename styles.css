@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
     color: #333;
 }
 
@@ -19,7 +18,7 @@ main {
 
 .intro {
     background-color: #fff;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -32,11 +31,15 @@ main {
 .wishlist li {
     margin-bottom: 1rem;
     background-color: #fff;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.fine {
+    color: antiquewhite;
 }
 
 .button {
